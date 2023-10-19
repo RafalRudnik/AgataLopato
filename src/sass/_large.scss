@@ -1,0 +1,196 @@
+@media (min-width: 992px) {
+	.header {
+		padding-top: 18em;
+		&__middle {
+			width: 502px;
+			transform: translateX(-10%);
+		}
+		&__left {
+			gap: 2em;
+			&-title {
+				h1 {
+					padding: 0.2em 0em;
+					font-size: 5rem;
+					width: 120%;
+				}
+				h2 {
+					font-size: 5rem;
+					padding: 0.2em 0em;
+				}
+			}
+			&-first {
+				border-top-right-radius: 20px;
+				border-bottom-right-radius: 20px;
+				width: 126%;
+			}
+			&-last {
+				width: 116%;
+				border-bottom-right-radius: 20px;
+			}
+			&-desc {
+				padding: 1em 0em;
+			}
+			&-img {
+				gap: 5em;
+			}
+			&-btns {
+				gap: 5em;
+			}
+		}
+		&__right {
+			padding-left: 0em;
+			&-desc {
+				&--img {
+					width: 180px;
+					height: 180px;
+					img {
+						width: 90px;
+					}
+				}
+			}
+		}
+	}
+	.homeabout {
+		&-img {
+			width: 582px;
+			height: 568px;
+			&-top {
+				height: auto;
+				img {
+					height: auto;
+				}
+			}
+		}
+		&-desc {
+			&-btn {
+				gap: 4em;
+			}
+		}
+	}
+	.homeWork {
+		&-main {
+			&--left {
+				width: 33%;
+			}
+			&--right {
+				width: 33%;
+				&-btn {
+					gap: 4em;
+				}
+			}
+			&--middle {
+				width: 400px;
+			}
+		}
+		&-banner {
+			font-size: 10rem;
+		}
+	}
+
+	.offerheader {
+		padding-top: 18em;
+		&-left {
+			p {
+				font-size: 3rem;
+			}
+			h2,
+			h3 {
+				font-size: 10rem;
+			}
+			h3 {
+				text-align: left;
+				padding-left: 1.6em;
+			}
+			&-dot {
+				right: 120px;
+				bottom: 20px;
+			}
+		}
+		&-right {
+			width: 60%;
+		}
+	}
+	.offer-list {
+		ul {
+			width: 80%;
+		}
+	}
+	.offerTypes {
+		&-banner {
+			font-size: 8rem;
+			&--img {
+				width: 50%;
+				height: 300px;
+			}
+		}
+		&-types {
+			p {
+				width: 60%;
+			}
+		}
+	}
+	.contact-main {
+		&--data {
+			h2,
+			h3 {
+				font-size: 8rem;
+			}
+		}
+		&--map {
+			height: 800px;
+		}
+	}
+	.aboutHeader {
+		&-main {
+			&--img {
+				gap: 3em;
+				img {
+					width: 250px;
+				}
+				&-desc {
+					h2,
+					h3 {
+						font-size: 10rem;
+						line-height: 130%;
+					}
+				}
+			}
+			&--txt {
+				p {
+					font-size: 6rem;
+					padding: 1em 0em;
+				}
+			}
+			&--help {
+				h2 {
+					font-size: 12rem;
+				}
+			}
+		}
+	}
+	.aboutBlue {
+		&-main {
+			&--desc {
+				div {
+					width: 40%;
+				}
+			}
+		}
+	}
+	.aboutWork {
+		&--expander {
+			padding-left: 5em;
+			width: 65%;
+			line-height: 180%;
+			font-weight: 300;
+		}
+	}
+	.aboutLink {
+		&-container {
+			height: 120px;
+			a {
+				font-size: 2rem;
+			}
+		}
+	}
+}
